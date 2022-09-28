@@ -6,6 +6,8 @@
 
 body{
   height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(17, 18, 35)
 }
 
 /* HEADER */
@@ -45,6 +47,16 @@ background-color: rgb(41, 39, 39);
   padding-top: 20px;
 } */
 
+main{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: calc(100% - 180px);
+}
+
+
+
 .sidebar{
   display: flex;
   flex-direction: column;
@@ -55,17 +67,39 @@ background-color: rgb(41, 39, 39);
 
 .sidebar img{
   padding: 20px 10px;
+  width: 100%;
 }
 
-/* 
-main div div{
-  width: 70%;
-  padding-left: 10px;
-} */
 
 /* MAIN */
 main{
 height: calc(100% - 70px);
+background-color: rgb(17, 18, 35);
+}
+
+.menu-centrale ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-bottom: 70px;
+}
+
+.menu-centrale ul li{
+  justify-content: center;
+}
+
+.menu-centrale ul li a{
+  text-decoration: none;
+  padding: 5px;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+
+.sottotitolo{
+  color: white;
+  display: flex;
+  justify-content: left;
 }
 
 
