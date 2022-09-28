@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-
+body{
+  height: 100vh;
+}
 
 /* HEADER */
 header{
@@ -55,22 +57,20 @@ background-color: rgb(41, 39, 39);
   padding: 20px 10px;
 }
 
-
+/* 
 main div div{
   width: 70%;
   padding-left: 10px;
-}
+} */
 
 /* MAIN */
 main{
-width: 100%;
-height: calc(100vw - 150px);
+height: calc(100% - 70px);
 }
 
 
 /* FOOTER */
 footer{
   height: 70px;
-  width: 100vw;
   background-color: rgb(67, 67, 67);
 }
